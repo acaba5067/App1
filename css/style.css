@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media(max-width:768px){
+    .cont{
+        width: 740px;
+    }
+}
+
+/* meduim */
+@media (max-width:992px)
+{
+         .cont{
+                  width: 970px;
+         }
+}
+/* large */
+@media(max-width:1200px)
+{
+         .cont{
+                  width:1330px;
+                  
+         }
+
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header{
+    height: 70px;
+    background-color: grey;
+    padding: 10px 0px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.header-content .brand{
+    font-size: 32px;
+    text-decoration: none;
+    color:#FFF;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li a{
+    display: block;
+    color:#FFF;
+    min-width: 80px;
+    padding: 5px;
+    margin: 0px 5px;
+}
+/*********************************************************form************************************/
+.section-form{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+}
+.section-form h2{
+    font-size: 50px;
+    letter-spacing: 2px;
+    color:purple;
+}
+.section-form form  input{
+    display: block;
+    width: 100%;
+    margin: 5px 0px;
+    height: 30px;
+    border:1px solid #ddd;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+.section-form form  input[type="submit"]:hover
+{
+    opacity: 0.5;
+
+}
+nav ul#user_info{
+    display: none;
+}
+
