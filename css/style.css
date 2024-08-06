@@ -3,28 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-@media(max-width:768px){
-    .cont{
-        width: 740px;
-    }
-}
-
-/* meduim */
-@media (max-width:992px)
-{
-         .cont{
-                  width: 970px;
-         }
-}
-/* large */
-@media(max-width:1200px)
-{
-         .cont{
-                  width:1330px;
-                  
-         }
-
-}
 .container{
     width: 80%;
     margin: auto;
