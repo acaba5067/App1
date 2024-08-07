@@ -8,10 +8,10 @@
     margin: auto;
 }
 
-@media(max-width:768px){
+@media(max-width:786px){
     .container{
         width:90%;
-        margin-left: 100px;
+        margin-left: 200px;
     }
     .products .product_item_desc{
         font-size: 10px;
@@ -33,6 +33,7 @@
 }
 header{
     height: 70px;
+    width: 100%;
     background-color: grey;
     padding: 10px 0px;
 }
