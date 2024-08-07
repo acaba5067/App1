@@ -10,8 +10,7 @@
 
 @media(max-width:768px){
     .container{
-        width:100%;
-        margin-left: 200px;
+        width:750px;
     }
     .products .product_item_desc{
         font-size: 10px;
