@@ -20,7 +20,7 @@
 }
 @media(min-width:1200px){
     .container{
-        width:1400px;
+        width:1500px;
     }
 }
 header{
@@ -61,6 +61,7 @@ nav li a{
     text-align: center;
     background-color: grey;
     padding: 20px;
+    margin: auto;
 }
 .section-form h2{
     font-size: 50px;
