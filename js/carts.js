@@ -23,4 +23,20 @@ function drawCartProducts(products){
 })
 allProducts.innerHTML=y
 }
+let cartproductsDiv=document.querySelector(".carts_products div")
+let badge=document.querySelector(".badge")
+let cartProductsLength=document.querySelectorAll(".carts_products div p")
+let count=cartProductsLength.length
+function removefromcart(item)
+{
+    if(cartproductsDiv !==" ")       
+    {
+        badge.innerHTML=count--;
+        cartproductsDiv.remove()
+
+    }
+}
+      
+
+    
 
