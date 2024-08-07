@@ -8,9 +8,9 @@
     margin: auto;
 }
 
-@media(max-width:786px){
+@media(max-width:768px){
     .container{
-        width:90%;
+        width:100%;
         margin-left: 200px;
     }
     .products .product_item_desc{
@@ -90,9 +90,9 @@ nav li a{
     opacity: 0.5;
 
 }
-/* nav ul#user_info{
+nav ul#user_info{
     display: none;
-} */
+}
 /*//////////////////////////////////////////////////////////////////*/
 .products{
     width: 60%;
