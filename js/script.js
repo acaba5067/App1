@@ -85,6 +85,8 @@ let cartproductsDiv=document.querySelector(".carts_products div")
 //let addedItem = [];
 let addedItem = localStorage.getItem("productsInCart") ? JSON.parse(localStorage.getItem("productsInCart")) : [];
 
+
+
 if(addedItem) {
     addedItem.map(item => {
         cartproductsDiv.innerHTML += `<p>${item.title}</p>`;
@@ -92,7 +94,7 @@ if(addedItem) {
     badge.style.display = "block";
     badge.innerHTML = addedItem.length;
 }
-
+let badgecount=localStorage.setItem("badge",addedItem.length)
     if(localStorage.getItem=("username"))
     {
         function addToCart(id)
@@ -116,6 +118,7 @@ if(addedItem) {
     else{
         window.location="login.html"
     }
+ 
 
 ////////////////////////////////////////////////////////////////////////////
 let shoppingCartIcon=document.querySelector(".shopping_cart")
