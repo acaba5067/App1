@@ -3,28 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
 }
-@media(max-width:768px){
-    .cont{
-        width: 740px;
-    }
-}
-
-/* meduim */
-@media (max-width:992px)
-{
-         .cont{
-                  width: 970px;
-         }
-}
-/* large */
-@media(max-width:1200px)
-{
-         .cont{
-                  width:1330px;
-                  
-         }
-
-}
 .container{
     width: 80%;
     margin: auto;
@@ -87,7 +65,97 @@ nav li a{
     opacity: 0.5;
 
 }
-nav ul#user_info{
+/* nav ul#user_info{
+    display: none;
+} */
+/*//////////////////////////////////////////////////////////////////*/
+.products{
+    width: 60%;
+    margin: auto;
+    margin-top: 10px;
+}
+.product_item{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+    background-color: grey;
+    border: 1px solid grey;
+    height: 150px;
+    margin-bottom: 20px;
+}
+.product_item_img{
+    width: 25%;
+    margin-right: 10px;
+}
+.product_item_action{
+    flex:1;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.product_item .product_item_action .add_to_cart
+{
+    display: block;
+    margin-left: auto;
+    background-color: green;
+    outline:3px solid gray;
+    color:#FFF;
+    border:0;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product_item_action .fav{
+    cursor: pointer;
+    display: block;
+    width: 20px;
+    margin-left: auto;    
+}
+/* ///////////////////////////////////////////////////////////////////////// */
+nav ul#user_info li i{
+   color:#FFF;
+   font-size: 25px;
+   cursor: pointer;
+}
+nav ul#user_info li{
+    margin:0px 10px;
+    position: relative;
+}
+nav ul#user_info .badge{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    color:#FFF;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    top:-10px;
+    left:15px;
+    font-size: 10px;
     display: none;
 }
-
+/*********************************************/
+.carts_products{
+    position: absolute;
+    width: 200px;
+    transform: translate(-40px,0);
+    background-color: #eaeaea;
+    top:60px;
+    padding: 10px;
+    color:black;
+    border: 1px solid grey;
+    text-decoration: none;
+    border:1px solid green;
+    display: none;
+}
+.carts_products a{
+  display: block;
+  color: #FFF;
+  background-color: green;
+  text-decoration: none;
+  text-align: center;
+}

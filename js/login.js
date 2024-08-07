@@ -11,7 +11,7 @@ loginBtn.addEventListener("click",function(e){
     alert("please,fill the  data")
    }
    else{
-   if(getusername&&getusername.trim()===username.value&& getpassword&&getpassword.trim()===password.value){
+   if(getusername&&getusername.trim()===username.value.trim()&& getpassword&&getpassword.trim()===password.value.trim()){
          setTimeout(() => {
              window.location="index.html"
          }, 1500);
