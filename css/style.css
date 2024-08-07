@@ -4,8 +4,31 @@
     box-sizing: border-box;
 }
 .container{
-    width: 80%;
+    width: 100%;
     margin: auto;
+}
+
+@media(max-width:768px){
+    .container{
+        width: 755px;
+    }
+    .products .product_item_desc{
+        font-size: 10px;
+        
+    }
+    .product_item_desc h2{
+        font-size: 15px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        width: 970px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        width:1400px;
+    }
 }
 header{
     height: 70px;
@@ -131,7 +154,7 @@ nav ul#user_info .badge{
     background-color: red;
     color:#FFF;
     text-align: center;
-    display: block;
+    display: inline-block;
     border-radius: 50%;
     top:-10px;
     left:15px;

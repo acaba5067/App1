@@ -23,6 +23,13 @@ function drawCartProducts(products){
 })
 allProducts.innerHTML=y
 }
-
-
+let badge=document.querySelector(".badge")
+let cartproductsDiv=document.querySelector(".carts_products div")
+let cartProductsLength=document.querySelectorAll(".carts_products div p")
+ badge.style.display="block"
+ badge.innerHTML=cartProductsLength.length
+ let count=cartProductsLength.length
+// function removefromcart(){
+//     badge.innerHTML=count--
+// }
 
