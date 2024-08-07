@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 .container{
-    width: 100%;
+    width: 80%;
     margin: auto;
 }
 
 @media(max-width:768px){
     .container{
-        width: 755px;
+        width: 750px;
+        margin: auto;
     }
     .products .product_item_desc{
         font-size: 10px;
