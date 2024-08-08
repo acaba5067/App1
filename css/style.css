@@ -12,6 +12,9 @@
     .container{
         width:750px;
     }
+    .section-form{
+        margin: auto;
+    }
 }
 @media(max-width:992px){
     .container{

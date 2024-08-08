@@ -94,7 +94,9 @@ if(addedItem) {
     badge.style.display = "block";
     badge.innerHTML = addedItem.length;
 }
-let badgecount=localStorage.setItem("badge",addedItem.length)
+localStorage.setItem("badge",addedItem.length)
+
+
     if(localStorage.getItem=("username"))
     {
         function addToCart(id)
@@ -105,11 +107,12 @@ let badgecount=localStorage.setItem("badge",addedItem.length)
 
             addedItem=[...addedItem,choosenItem]
             localStorage.setItem("productsInCart", JSON.stringify(addedItem))
-
             let cartProductsLength=document.querySelectorAll(".carts_products div p")
+            
            // console.log(cartProductsLength.length)
             badge.style.display="block"
             badge.innerHTML=cartProductsLength.length
+           
             // badge.style.display="block" 
             // badge.innerHTML=`<p>${count++}</p>`
         }
@@ -118,8 +121,6 @@ let badgecount=localStorage.setItem("badge",addedItem.length)
     else{
         window.location="login.html"
     }
- 
-
 ////////////////////////////////////////////////////////////////////////////
 let shoppingCartIcon=document.querySelector(".shopping_cart")
 let cartsProducts=document.querySelector(".carts_products")

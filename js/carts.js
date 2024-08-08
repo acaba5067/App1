@@ -24,19 +24,18 @@ function drawCartProducts(products){
 allProducts.innerHTML=y
 }
 let cartproductsDiv=localStorage.getItem("cartproductsDiv")
-let badge=localStorage.getItem("badge")
-let count=badge
 let cartProductsLength=document.querySelectorAll(".carts_products div p")
-
+let badge=localStorage.getItem("badge")
 function removefromcart(item)
 {
     if(cartproductsDiv !==" ")       
     {
-      count--;
-       let final=localStorage.setItem("badge",count)
-
+       localStorage.setItem("badge",badge--)
+       //item.remove()
     }
 }
+
+
       
 
     
