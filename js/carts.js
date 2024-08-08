@@ -23,17 +23,18 @@ function drawCartProducts(products){
 })
 allProducts.innerHTML=y
 }
-let cartproductsDiv=localStorage.getItem("cartproductsDiv")
-let cartProductsLength=document.querySelectorAll(".carts_products div p")
-let badge=localStorage.getItem("badge")
-function removefromcart(item)
-{
-    if(cartproductsDiv !==" ")       
-    {
-       localStorage.setItem("badge",badge--)
-       //item.remove()
-    }
-}
+// let cartproductsDiv=localStorage.getItem("cartproductsDiv")
+// let cartProductsLength=document.querySelectorAll(".carts_products div p")
+// let badge=localStorage.getItem("badge")
+// function removefromcart(item)
+// {
+//     if(cartproductsDiv !==" ")       
+//     {
+//        localStorage.setItem("badge",badge--)
+//        //item.remove()
+//     }
+// }
+// localStorage.setItem("count",removefromcart())
 
 
       
